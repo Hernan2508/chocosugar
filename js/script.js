@@ -78,23 +78,23 @@ function calcular_precio_base( tipo_pastel, diametro, tipo_pago){
 
    // Doble || Diferentes Diametros || OTROS
 
-      else if ( tipo_pastel == "Doble" && diametro == 10 && tipo_pago == "VISA"){
+      else if ( tipo_pastel == "Doble" && diametro == 10 && tipo_pago == "OTROS"){
       precio_base = 100 * 1.05;
       return precio_base;
 
-    } else if ( tipo_pastel == "Doble" && diametro == 14 && tipo_pago == "VISA"){
+    } else if ( tipo_pastel == "Doble" && diametro == 14 && tipo_pago == "OTROS"){
       precio_base = 140 * 1.05;
       return precio_base;
 
-    } else if ( tipo_pastel == "Doble" && diametro == 18 && tipo_pago == "VISA"){
+    } else if ( tipo_pastel == "Doble" && diametro == 18 && tipo_pago == "OTROS"){
       precio_base = 180 * 1.05;
       return precio_base;
 
-    } else if ( tipo_pastel == "Doble" && diametro == 22 && tipo_pago == "VISA"){
+    } else if ( tipo_pastel == "Doble" && diametro == 22 && tipo_pago == "OTROS"){
         precio_base = 220 * 1.05;
         return precio_base;
 
-    } else if ( tipo_pastel == "Doble" && diametro == 24 && tipo_pago == "VISA"){
+    } else if ( tipo_pastel == "Doble" && diametro == 24 && tipo_pago == "OTROS"){
       precio_base = 260 * 1.05;
       return precio_base;
     }
@@ -138,10 +138,10 @@ while (tipo_pastel !== "FIN") {
 
   //----------- Pastel Regular ----------------------
   if (tipo_pastel == "Regular") {
-    console.log("<-------- Altura Regular ------->");
+    //console.log("<-------- Altura Regular ------->");
 
     let diametro = prompt("Proporcione el diámetro del pastel (10/14/18/22/24):");
-    let tipo_pago = prompt("Tipo de Pago: VISA o OTROS");
+    let tipo_pago = prompt("Tipo de Pago: VISA o OTROS(Se le cobrará el 5% de comisión del precio base).");
     let membresia = prompt("Es miembro de Chocosugar: SI o NO");
     
    
@@ -164,15 +164,11 @@ while (tipo_pastel !== "FIN") {
 
   //----------- Pastel Doble ----------------------
   } else if (tipo_pastel == "Doble") {
-    console.log("<-------- Altura Doble ------->");
+    //console.log("<-------- Altura Doble ------->");
 
     let diametro = prompt("Proporcione el diámetro del pastel (10/14/18/22/24):");
-    let tipo_pago = prompt("Tipo de Pago: VISA o OTROS");
+    let tipo_pago = prompt("Tipo de Pago: VISA o OTROS(Se le cobrará el 5% de comisión del precio base).");
     let membresia = prompt("Es miembro de Chocosugar: SI o NO");
-    
-    
-    
-
 
     // Calcular
     let precio_base = calcular_precio_base(tipo_pastel, diametro, tipo_pago);
