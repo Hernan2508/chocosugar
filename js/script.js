@@ -122,10 +122,6 @@ function descuento_membresia(precio_base, membresia){
 }
 
 
-
-
-
-
 // ChocoSugar 
 
 console.log("Bienvenido/a a ChocoSugar MMM");
@@ -138,7 +134,7 @@ while (tipo_pastel !== "FIN") {
 
   //----------- Pastel Regular ----------------------
   if (tipo_pastel == "Regular") {
-    //console.log("<-------- Altura Regular ------->");
+    
 
     let diametro = prompt("Proporcione el diámetro del pastel (10/14/18/22/24):");
     let tipo_pago = prompt("Tipo de Pago: VISA o OTROS(Se le cobrará el 5% de comisión del precio base).");
@@ -164,7 +160,7 @@ while (tipo_pastel !== "FIN") {
 
   //----------- Pastel Doble ----------------------
   } else if (tipo_pastel == "Doble") {
-    //console.log("<-------- Altura Doble ------->");
+    
 
     let diametro = prompt("Proporcione el diámetro del pastel (10/14/18/22/24):");
     let tipo_pago = prompt("Tipo de Pago: VISA o OTROS(Se le cobrará el 5% de comisión del precio base).");
