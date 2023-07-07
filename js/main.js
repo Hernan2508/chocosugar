@@ -1,5 +1,5 @@
 
-// Usamos fetch para un archivo local json
+// Usamos fetch para extraer la data de un archivo local json (promesa)
 let productos = [];
 
 fetch("./js/productos.json")
@@ -8,6 +8,34 @@ fetch("./js/productos.json")
         productos = data;
         cargarProductos(productos);
     })
+
+
+// Importante: 
+// Esta es otra forma, pero la veo muy inncesaria, ya que fetch me devuelve una promesa, igualmente profesor o tutor ahí le dejo el código comentado
+
+/* let productos = [];
+
+new Promise((resolve, reject) => {
+    fetch("./js/productos.json")
+    .then(response => response.json())
+    .then(data => {
+        productos = data;
+        resolve();
+    })
+    .catch(error => {
+        reject(error);
+    });
+})
+    .then(() => {
+    // El código que se ejecutará después de que la promesa se resuelva: que me cargue todos los productos
+    cargarProductos(productos);
+    })
+    .catch(error => {
+    // El código que se ejecutará si la promesa es rechazada, que me devuelva vacio
+    productos = []
+    }); */
+
+
 
 // *? Construimos una funcion para cargar productos 
 // ****************************   DOM *******************************************************
