@@ -1,0 +1,184 @@
+[
+    {
+        "id": "torta-01",
+        "titulo": "Torta 01",
+        "imagen": "./img/tortas/01.jpg",
+        "categoria": {
+            "nombre": "Tortas",
+            "id": "tortas"
+        },
+        "precio": 210
+    },
+    {
+        "id": "torta-02",
+        "titulo": "Torta 02",
+        "imagen": "./img/tortas/02.jpg",
+        "categoria": {
+            "nombre": "Tortas",
+            "id": "tortas"
+        },
+        "precio": 140
+    },
+    {
+        "id": "torta-03",
+        "titulo": "Torta 03",
+        "imagen": "./img/tortas/03.jpg",
+        "categoria": {
+            "nombre": "Tortas",
+            "id": "tortas"
+        },
+        "precio": 280
+    },
+    {
+        "id": "torta-04",
+        "titulo": "Torta 04",
+        "imagen": "./img/tortas/04.jpg",
+        "categoria": {
+            "nombre": "Tortas",
+            "id": "tortas"
+        },
+        "precio": 130
+    },
+    {
+        "id": "torta-05",
+        "titulo": "Torta 05",
+        "imagen": "./img/tortas/05.jpg",
+        "categoria": {
+            "nombre": "Tortas",
+            "id": "tortas"
+        },
+        "precio": 220
+    },
+
+    {
+        "id": "galleta-01",
+        "titulo": "Galleta 01",
+        "imagen": "./img/galletas/01.jpg",
+        "categoria": {
+            "nombre": "Galletas",
+            "id": "galletas"
+        },
+        "precio": 20
+    },
+    {
+        "id": "galleta-02",
+        "titulo": "Galleta 02",
+        "imagen": "./img/galletas/02.jpg",
+        "categoria": {
+            "nombre": "Galletas",
+            "id": "galletas"
+        },
+        "precio": 80
+    },
+    {
+        "id": "galleta-03",
+        "titulo": "Galleta 03",
+        "imagen": "./img/galletas/03.jpg",
+        "categoria": {
+            "nombre": "Galletas",
+            "id": "galletas"
+        },
+        "precio": 20
+    },
+    {
+        "id": "galleta-04",
+        "titulo": "Galleta 04",
+        "imagen": "./img/galletas/04.jpg",
+        "categoria": {
+            "nombre": "Galletas",
+            "id": "galletas"
+        },
+        "precio": 22
+    },
+    {
+        "id": "galleta-05",
+        "titulo": "Galleta 05",
+        "imagen": "./img/galletas/05.jpg",
+        "categoria": {
+            "nombre": "Galletas",
+            "id": "galletas"
+        },
+        "precio": 25
+    },
+    {
+        "id": "galleta-06",
+        "titulo": "Galleta 06",
+        "imagen": "./img/galletas/06.jpg",
+        "categoria": {
+            "nombre": "Galletas",
+            "id": "galletas"
+        },
+        "precio": 10
+    },
+    {
+        "id": "galleta-07",
+        "titulo": "Galleta 07",
+        "imagen": "./img/galletas/07.jpg",
+        "categoria": {
+            "nombre": "Galletas",
+            "id": "galletas"
+        },
+        "precio": 30
+    },
+    {
+        "id": "galleta-08",
+        "titulo": "Galleta 08",
+        "imagen": "./img/galletas/08.jpg",
+        "categoria": {
+            "nombre": "Galletas",
+            "id": "galletas"
+        },
+        "precio": 25
+    },
+
+    {
+        "id": "cupcake-01",
+        "titulo": "Cupcake 01",
+        "imagen": "./img/cupcakes/01.jpg",
+        "categoria": {
+            "nombre": "Cupcakes",
+            "id": "cupcakes"
+        },
+        "precio": 20
+    },
+    {
+        "id": "cupcake-02",
+        "titulo": "Cupcake 02",
+        "imagen": "./img/cupcakes/02.jpg",
+        "categoria": {
+            "nombre": "Cupcakes",
+            "id": "cupcakes"
+        },
+        "precio": 45
+    },
+    {
+        "id": "cupcake-03",
+        "titulo": "Cupcake 03",
+        "imagen": "./img/cupcakes/03.jpg",
+        "categoria": {
+            "nombre": "Cupcakes",
+            "id": "cupcakes"
+        },
+        "precio": 50
+    },
+    {
+        "id": "cupcake-04",
+        "titulo": "Cupcake 04",
+        "imagen": "./img/cupcakes/04.jpg",
+        "categoria": {
+            "nombre": "Cupcakes",
+            "id": "cupcakes"
+        },
+        "precio": 10
+    },
+    {
+        "id": "cupcake-05",
+        "titulo": "Cupcake 05",
+        "imagen": "./img/cupcakes/05.jpg",
+        "categoria": {
+            "nombre": "Cupcakes",
+            "id": "cupcakes"
+        },
+        "precio": 90
+    }
+]
